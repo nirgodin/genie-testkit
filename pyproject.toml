@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "genie-testkit"
+version = "0.1.0"
+description = ""
+authors = ["nir.godin <nir.godin@planckresolution.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+genie-common = {git = "https://github.com/nirgodin/genie-common.git"}
+testcontainers = ">=3.7.1,<4.0"
+testcontainers-postgres = { version = "0.0.1rc1", optional = true }
+sqlalchemy = { version = "<2.0.0", optional = true }
+asyncmy = { version = "0.2.8", optional = true }
+asyncpg = { version = "0.28.0", optional = true }
+greenlet = { version = "2.0.1", optional = true }
+
+[tool.poetry.extras]
+postgres = ["testcontainers-postgres", "sqlalchemy", "asyncmy", "asyncpg", "greenlet"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
