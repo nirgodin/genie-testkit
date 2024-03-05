@@ -542,8 +542,8 @@ tqdm = ">=4.65,<5.0"
 [package.source]
 type = "git"
 url = "https://github.com/nirgodin/genie-common.git"
-reference = "c5013afb"
-resolved_reference = "c5013afbc8cf8793a38699649229d1c86a481c59"
+reference = "cbb8374c"
+resolved_reference = "cbb8374c3618fdaa1c7fdb4e2bd74475db63ed1b"
 
 [[package]]
 name = "greenlet"
@@ -1338,4 +1338,4 @@ postgres = ["asyncmy", "asyncpg", "greenlet", "sqlalchemy", "testcontainers-post
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "9fd8166293d2c0d9b16c6ffa53084c348572e2e2068019865a710ea552182fd2"
+content-hash = "a7cbd21d853ee7e301d918e7ca15f91221f8b6475d8a82b5023fa5a243d7ed14"
