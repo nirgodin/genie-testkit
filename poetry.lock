@@ -542,8 +542,8 @@ tqdm = ">=4.65,<5.0"
 [package.source]
 type = "git"
 url = "https://github.com/nirgodin/genie-common.git"
-reference = "c2d09475"
-resolved_reference = "c2d094752041432b72fd5c6906a703a4b0e0e83b"
+reference = "b86a1e6d"
+resolved_reference = "b86a1e6d390e119ca894a3c1059f254ac55a372b"
 
 [[package]]
 name = "greenlet"
@@ -838,13 +838,13 @@ numpy = [
 
 [[package]]
 name = "packaging"
-version = "23.2"
+version = "24.0"
 description = "Core utilities for Python packages"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "packaging-23.2-py3-none-any.whl", hash = "sha256:8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"},
-    {file = "packaging-23.2.tar.gz", hash = "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5"},
+    {file = "packaging-24.0-py3-none-any.whl", hash = "sha256:2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5"},
+    {file = "packaging-24.0.tar.gz", hash = "sha256:eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9"},
 ]
 
 [[package]]
@@ -1338,4 +1338,4 @@ postgres = ["asyncmy", "asyncpg", "greenlet", "sqlalchemy", "testcontainers-post
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "0f784e5d1a90971b93537a481d26311b972b3f05cc15a4c98ba5a64975a467ec"
+content-hash = "b7be3715824f0b2e579f4fe9d79848b1f44e6ea0f5c8459c9331020fb78ecf1e"
