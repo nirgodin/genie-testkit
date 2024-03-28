@@ -10,13 +10,16 @@ python = ">=3.8,<3.12"
 genie-common = { git = "https://github.com/nirgodin/genie-common.git", rev = "84c2ce558f3b26b6f13caf079c19b577ce518852" }  # Must use long hash because poetry export runs into problem without
 testcontainers = ">=3.7.1,<4.0"
 testcontainers-postgres = { version = "0.0.1rc1", optional = true }
+testcontainers-redis = { version = "0.0.1rc1", optional = true }
 sqlalchemy = { version = "<2.0.0", optional = true }
 asyncmy = { version = "0.2.8", optional = true }
 asyncpg = { version = "0.28.0", optional = true }
 greenlet = { version = "2.0.1", optional = true }
+aioredis = { version = ">=2.0.0,<2.1.0", optional = true }
 
 [tool.poetry.extras]
 postgres = ["testcontainers-postgres", "sqlalchemy", "asyncmy", "asyncpg", "greenlet"]
+redis = ["testcontainers-redis", "aioredis"]
 
 [build-system]
 requires = ["poetry-core"]
