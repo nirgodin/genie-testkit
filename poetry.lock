@@ -560,8 +560,8 @@ tqdm = ">=4.65,<5.0"
 [package.source]
 type = "git"
 url = "https://github.com/nirgodin/genie-common.git"
-reference = "1d3adcd831f0c0bb94bd5b86287962746e67dad3"
-resolved_reference = "1d3adcd831f0c0bb94bd5b86287962746e67dad3"
+reference = "772268da0fba1b6307911c0a74d02f80114ca1b6"
+resolved_reference = "772268da0fba1b6307911c0a74d02f80114ca1b6"
 
 [[package]]
 name = "greenlet"
@@ -1185,13 +1185,13 @@ telegram = ["requests"]
 
 [[package]]
 name = "typing-extensions"
-version = "4.10.0"
+version = "4.11.0"
 description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = true
 python-versions = ">=3.8"
 files = [
-    {file = "typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475"},
-    {file = "typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"},
+    {file = "typing_extensions-4.11.0-py3-none-any.whl", hash = "sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"},
+    {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
 ]
 
 [[package]]
@@ -1400,4 +1400,4 @@ redis = ["aioredis", "testcontainers-redis"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "9029494a92a4a3daf94db2650f6c3f1d6d15882ee3ddc0db03ae3d02fb2620c2"
+content-hash = "da381d3d954ccc2a098ac343865569a119ac2e58cda721d066cca019eaa13262"
