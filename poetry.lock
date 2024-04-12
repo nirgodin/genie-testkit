@@ -560,8 +560,8 @@ tqdm = ">=4.65,<5.0"
 [package.source]
 type = "git"
 url = "https://github.com/nirgodin/genie-common.git"
-reference = "949398ba727d98caab4b8c9540e5cfbcc0978f30"
-resolved_reference = "949398ba727d98caab4b8c9540e5cfbcc0978f30"
+reference = "d1c812930ad6c97dee0b8c00d1dd0de51cdf8262"
+resolved_reference = "d1c812930ad6c97dee0b8c00d1dd0de51cdf8262"
 
 [[package]]
 name = "greenlet"
@@ -1400,4 +1400,4 @@ redis = ["aioredis", "testcontainers-redis"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "e618ddb13773c0913e4b27e227d717b64b8c059477337ca927612e4e17209b4c"
+content-hash = "e7cef18df1f076431aaa2fe02a6c5ea20e035a905d419f0a23d6f3ee5fe7261b"
