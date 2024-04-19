@@ -1,6 +1,6 @@
 from typing import Optional
 
-from aioredis import Redis
+from redis import Redis
 from genie_common.tools import logger
 from genie_common.utils import random_alphanumeric_string
 from testcontainers.postgres import PostgresContainer

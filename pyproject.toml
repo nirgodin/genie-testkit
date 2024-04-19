@@ -15,11 +15,11 @@ sqlalchemy = { version = "<2.0.0", optional = true }
 asyncmy = { version = "0.2.8", optional = true }
 asyncpg = { version = "0.28.0", optional = true }
 greenlet = { version = "2.0.1", optional = true }
-aioredis = { version = ">=2.0.0,<2.1.0", optional = true }
+redis = { version = ">=5.0.3,<5.1", optional = true }
 
 [tool.poetry.extras]
 postgres = ["testcontainers-postgres", "sqlalchemy", "asyncmy", "asyncpg", "greenlet"]
-redis = ["testcontainers-redis", "aioredis"]
+redis = ["testcontainers-redis", "redis"]
 
 [build-system]
 requires = ["poetry-core"]
