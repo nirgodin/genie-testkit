@@ -23,7 +23,7 @@ class MilvusTestkit:
     def __exit__(self, exc_type, exc_val, exc_tb) -> None:
         self._client.drop_collection(TRACK_NAMES_EMBEDDINGS_COLLECTION_NAME)
         self._client = None
-        connections.disconnect(uri=self.uri)
+        connections.disconnect("default")
 
     def _initialize_embeddings_collection(self) -> None:
         connections.connect(uri=self.uri)
