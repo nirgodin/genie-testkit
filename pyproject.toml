@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-genie-common = { git = "https://github.com/nirgodin/genie-common.git", rev = "1da9190dfdcd4526e36fe48c9b85c62e155c6da9" }  # Must use long hash because poetry export runs into problem without
+genie-common = { git = "https://github.com/nirgodin/genie-common.git", rev = "9cea6997a0e271871cf971172a704f4eec2f230f" }  # Must use long hash because poetry export runs into problem without
 testcontainers = ">=3.7.1,<4.0"
 testcontainers-postgres = { version = "0.0.1rc1", optional = true }
 testcontainers-redis = { version = "0.0.1rc1", optional = true }
